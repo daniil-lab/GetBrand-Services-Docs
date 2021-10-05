@@ -1,4 +1,4 @@
 # GetBrand Services Documentation
 
 ## Company Service
-    [Альтернативный текст](/путь/к/изображению.jpg)
+    [пример](http://example.com/ "Необязательная подсказка")
