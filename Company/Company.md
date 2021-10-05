@@ -1,3 +1,3 @@
 # GetBrand Company Service Documentation
 
-- /api/company/ - получение всего списка компаний.
+- ##### /api/company/ - получение всего списка компаний.
