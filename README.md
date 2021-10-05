@@ -5,3 +5,8 @@
 - #### [Company API Documentation](https://github.com/daniil-lab/getbrand-services-docs/blob/main/Company/Company.md) - Документация к API компании.
 - #### [Company Address API Documentation](https://github.com/daniil-lab/GetBrand-Services-Docs/blob/main/Company/CompanyAddress.md) - Документация к API адрессов компании.
 - #### [Company Tariff API Documentation](https://github.com/daniil-lab/GetBrand-Services-Docs/blob/main/Company/CompanyTariff.md) - Документация к API тарифа компании.
+
+## Role Service
+
+- #### [Role API Documentation](https://github.com/daniil-lab/getbrand-services-docs/blob/main/Role/Role.md) - Документация к API ролей.
+- #### [Company Role API Documentation](https://github.com/daniil-lab/GetBrand-Services-Docs/blob/main/Role/CompanyRole.md) - Документация к API ролей компании.
