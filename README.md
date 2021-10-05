@@ -17,4 +17,32 @@
 
 ## Loyalty Service
 
+- #### [Loyalty API Documentation](https://github.com/daniil-lab/getbrand-services-docs/blob/main/Loyalty/oyalty.md) - Документация к API лояльности.
 - #### [User Loyalty API Documentation](https://github.com/daniil-lab/getbrand-services-docs/blob/main/Loyalty/UserLoyalty.md) - Документация к API лояльности пользователя.
+- #### [Company Loyalty API Documentation](https://github.com/daniil-lab/getbrand-services-docs/blob/main/Loyalty/CompanyLoyalty.md) - Документация к API лояльности компании.
+
+## Promo Service
+
+- #### [Promo API Documentation](https://github.com/daniil-lab/getbrand-services-docs/blob/main/Promo/Promo.md) - Документация к API акций.
+
+## Menu Service
+
+- #### [Menu Category API Documentation](https://github.com/daniil-lab/getbrand-services-docs/blob/main/Menu/Category.md) - Документация к API категорий меню.
+- #### [Menu Product API Documentation](https://github.com/daniil-lab/getbrand-services-docs/blob/main/Menu/Product.md) - Документация к API продуктов меню.
+- #### [Menu Gift API Documentation](https://github.com/daniil-lab/getbrand-services-docs/blob/main/Menu/Gift.md) - Документация к API подарков.
+
+## Order Service
+
+- #### [Order API Documentation](https://github.com/daniil-lab/getbrand-services-docs/blob/main/Order/Order.md) - Документация к API заказов.
+- #### [Order State API Documentation](https://github.com/daniil-lab/getbrand-services-docs/blob/main/Order/OrderState.md) - Документация к API статусов заказов.
+
+## Poster Service
+
+- #### [Poster API Documentation](https://github.com/daniil-lab/getbrand-services-docs/blob/main/Poster/Poster.md) - Документация к API постера.
+
+## Exceptions
+
+- #### [Not Found Exception](https://github.com/daniil-lab/getbrand-services-docs/blob/main/Exceptions/NotFoundException.md).
+- #### [Internal Error Exception](https://github.com/daniil-lab/getbrand-services-docs/blob/main/Exceptions/InternalErrorException.md).
+- #### [Invalid Data Exception](https://github.com/daniil-lab/getbrand-services-docs/blob/main/Exceptions/InvalidDataException.md).
+
