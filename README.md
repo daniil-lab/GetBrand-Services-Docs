@@ -3,7 +3,7 @@
 ## Company Service
 
 - #### [Company API Documentation](https://github.com/daniil-lab/getbrand-services-docs/blob/main/Company/Company.md) - Документация к API компании.
-- #### [Company Address API Documentation](https://github.com/daniil-lab/GetBrand-Services-Docs/blob/main/Company/CompanyAddress.md) - Документация к API адрессов компании.
+- #### [Company Address API Documentation](https://github.com/daniil-lab/GetBrand-Services-Docs/blob/main/Company/CompanyAddress.md) - Документация к API адресов компании.
 - #### [Company Tariff API Documentation](https://github.com/daniil-lab/GetBrand-Services-Docs/blob/main/Company/CompanyTariff.md) - Документация к API тарифа компании.
 
 ## Role Service
@@ -14,3 +14,7 @@
 ## User Service
 
 - #### [User API Documentation](https://github.com/daniil-lab/getbrand-services-docs/blob/main/User/User.md) - Документация к API пользователя.
+
+## Loyalty Service
+
+- #### [User Loyalty API Documentation](https://github.com/daniil-lab/getbrand-services-docs/blob/main/Loyalty/UserLoyalty.md) - Документация к API лояльности пользователя.
