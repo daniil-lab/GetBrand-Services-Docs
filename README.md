@@ -1,4 +1,4 @@
 # GetBrand Services Documentation
 
 ## Company Service
-    (http://example.com/ "Необязательная подсказка")
+    [google.com](Google)
