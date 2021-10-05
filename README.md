@@ -10,3 +10,7 @@
 
 - #### [Role API Documentation](https://github.com/daniil-lab/getbrand-services-docs/blob/main/Role/Role.md) - Документация к API ролей.
 - #### [Company Role API Documentation](https://github.com/daniil-lab/GetBrand-Services-Docs/blob/main/Role/CompanyRole.md) - Документация к API ролей компании.
+
+## User Service
+
+- #### [User API Documentation](https://github.com/daniil-lab/getbrand-services-docs/blob/main/User/User.md) - Документация к API пользователя.
