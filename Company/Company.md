@@ -1,6 +1,7 @@
 # GetBrand Company Service Documentation
 
 - ##### GET /api/company/ - получение всего списка компаний.
+###### Логика работы - N/A
 ###### Тело запроса - N/A
 ###### Параметры запроса - N/A
 ###### PATH параметры - N/A
