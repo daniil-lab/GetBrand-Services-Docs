@@ -9,6 +9,7 @@
 ## Role Service
 
 - #### [Role API Documentation](https://github.com/daniil-lab/getbrand-services-docs/blob/main/Role/Role.md) - Документация к API ролей.
+- #### [Permission API Documentation](https://github.com/daniil-lab/getbrand-services-docs/blob/main/Role/Permission.md) - Документация к API разрешений.
 - #### [Company Role API Documentation](https://github.com/daniil-lab/GetBrand-Services-Docs/blob/main/Role/CompanyRole.md) - Документация к API ролей компании.
 
 ## User Service
@@ -20,6 +21,7 @@
 - #### [Loyalty API Documentation](https://github.com/daniil-lab/getbrand-services-docs/blob/main/Loyalty/oyalty.md) - Документация к API лояльности.
 - #### [User Loyalty API Documentation](https://github.com/daniil-lab/getbrand-services-docs/blob/main/Loyalty/UserLoyalty.md) - Документация к API лояльности пользователя.
 - #### [Company Loyalty API Documentation](https://github.com/daniil-lab/getbrand-services-docs/blob/main/Loyalty/CompanyLoyalty.md) - Документация к API лояльности компании.
+- #### [Company Grade API Documentation](https://github.com/daniil-lab/getbrand-services-docs/blob/main/Loyalty/CompanyGrade.md) - Документация к API грейдов компании.
 
 ## Promo Service
 
@@ -35,6 +37,7 @@
 
 - #### [Order API Documentation](https://github.com/daniil-lab/getbrand-services-docs/blob/main/Order/Order.md) - Документация к API заказов.
 - #### [Order State API Documentation](https://github.com/daniil-lab/getbrand-services-docs/blob/main/Order/OrderState.md) - Документация к API статусов заказов.
+- #### [Equipment API Documentation](https://github.com/daniil-lab/getbrand-services-docs/blob/main/Order/Equipment.md) - Документация к API эквипмента.
 
 ## Poster Service
 

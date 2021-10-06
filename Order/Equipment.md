@@ -1,8 +1,8 @@
-# GetBrand Loyalty Service Documentation
+# GetBrand Order Service Documentation
 
-## Company Loyalty
+## Equipment
 
-- ##### GET /api/company-loyality/ - получение всего списка лояльностей компании.
+- ##### GET /api/equipment/ - получение всего списка эквипмента.
 ###### Логика работы - N/A
 ###### Тело запроса - N/A
 ###### Параметры запроса - N/A
@@ -14,10 +14,9 @@
       "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
       "name": "string",
       "description": "string",
-      "loyality": {
-        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-        "name": "string"
-      },
+      "volume": 0,
+      "inventoryCode": "string",
+      "minReserv": 0,
       "company": {
         "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
         "name": "string",
@@ -85,27 +84,26 @@
         }
       }
     }
-  ]
+]
 ```
 ###### Исключения - 
 ###### ***InternalErrorException***
 ---
-- ##### GET /api/company-loyality/{loyaltyId} - получение лояльности компании по ID.
-###### Логика работы - находит в базе данных лояльность компании в соответствиии с переданным ID с помощью ***loyaltyId***.
+- ##### GET /api/equipment/{equipmentId} - получение эквипмента по ID.
+###### Логика работы - находит в базе данных эквипмент в соответствиии с переданным ID с помощью ***equipmentId***.
 ###### Тело запроса - N/A
 ###### Параметры запроса - N/A
 ###### PATH параметры - 
-###### ***loyaltyId - UUID***
+###### ***equipmentId - UUID***
 ###### Тело ответа - 
 ```js
 {
     "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
     "name": "string",
     "description": "string",
-    "loyality": {
-      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-      "name": "string"
-    },
+    "volume": 0,
+    "inventoryCode": "string",
+    "minReserv": 0,
     "company": {
       "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
       "name": "string",
@@ -179,15 +177,18 @@
 ###### ***NotFoundException***
 ###### ***InvalidDataException***
 ---
-- ##### POST /api/company-loyality/ - создание лояльности компании.
-###### Логика работы - создает лояльность компании в соответствии с телом запроса и сохраняет ее.
+- ##### POST /api/equipment/ - создание эквипмента.
+###### Логика работы - создает эквипмент в соответствии с телом запроса и сохраняет его. Создание при типе компании ***POSTER*** невозможно в связи с их API. Поле ***poster_id*** используется исключительно для синхронизации.
 ###### Тело запроса -
 ```js
 {
   "name": "string",
-  "loyalityId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "companyId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "description": "string"
+  "description": "string",
+  "volume": 0,
+  "inventoryCode": "string",
+  "minReserv": 0,
+  "poster_id": 0,
+  "companyId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
 }
 ```
 ###### Параметры запроса - N/A
@@ -198,10 +199,9 @@
     "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
     "name": "string",
     "description": "string",
-    "loyality": {
-      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-      "name": "string"
-    },
+    "volume": 0,
+    "inventoryCode": "string",
+    "minReserv": 0,
     "company": {
       "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
       "name": "string",
@@ -268,37 +268,39 @@
         "integrationType": "POSTER"
       }
     }
-  }
+}
 ```
 ###### Исключения - 
 ###### ***InternalErrorException***
 ###### ***NotFoundException***
 ###### ***InvalidDataException***
 ---
-- ##### PATCH /api/company-loyality/{loyaltyId} - обновление лояльности компании.
-###### Логика работы - находит лояльность компании в соответствии с ID переданным через ***loyaltyId***, обновляет ее в соответствии с телом запроса и сохраняет.
+- ##### PATCH /api/equipment/{equipmentId} - обновление эквипмента.
+###### Логика работы - находит эквипмент в соответствии с ID переданным через ***equipmentId***, обновляет его в соответствии с телом запроса и сохраняет.
 ###### Тело запроса -
 ```js
 {
   "name": "string",
-  "loyalityId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "companyId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "description": "string"
+  "description": "string",
+  "volume": 0,
+  "inventoryCode": "string",
+  "minReserv": 0,
+  "poster_id": 0,
+  "companyId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
 }
 ```
 ###### Параметры запроса - N/A
 ###### PATH параметры - 
-###### ***loyaltyId - UUID***
+###### ***equipmentId - UUID***
 ###### Тело ответа - 
 ```js
 {
     "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
     "name": "string",
     "description": "string",
-    "loyality": {
-      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-      "name": "string"
-    },
+    "volume": 0,
+    "inventoryCode": "string",
+    "minReserv": 0,
     "company": {
       "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
       "name": "string",
@@ -365,19 +367,19 @@
         "integrationType": "POSTER"
       }
     }
-  }
+}
 ```
 ###### Исключения - 
 ###### ***InternalErrorException***
 ###### ***NotFoundException***
 ###### ***InvalidDataException***
 ---
-- ##### DELETE /api/company-loyality/{loyaltyId} - удаление лояльности компании.
-###### Логика работы - находит в базе данных лояльность компании в соответствиии с переданным ID с помощью ***loyaltyId*** и удаляет ее.
+- ##### DELETE /api/equipment/{equipmentId} - удаление эквипмента.
+###### Логика работы - находит в базе данных эквипмент в соответствиии с переданным ID с помощью ***equipmentId*** и удаляет его.
 ###### Тело запроса - N/A
 ###### Параметры запроса - N/A
 ###### PATH параметры - 
-###### ***loyaltyId - UUID***
+###### ***equipmentId - UUID***
 ###### Тело ответа - 
 ```js
 boolean
