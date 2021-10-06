@@ -43,6 +43,11 @@
 
 - #### [Poster API Documentation](https://github.com/daniil-lab/getbrand-services-docs/blob/main/Poster/Poster.md) - Документация к API постера.
 
+## Status Service
+
+- #### [Status API Documentation](https://github.com/daniil-lab/getbrand-services-docs/blob/main/Status/Status.md) - Документация к API статусов.
+- #### [CompanyStatus API Documentation](https://github.com/daniil-lab/getbrand-services-docs/blob/main/Status/CompanyStatus.md) - Документация к API статусов компании.
+
 ## Exceptions
 
 - #### [Not Found Exception](https://github.com/daniil-lab/getbrand-services-docs/blob/main/Exceptions/NotFoundException.md).
